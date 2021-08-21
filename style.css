@@ -46,14 +46,17 @@ body {
 
 
 #jeelizFaceFilterFollow {
-    display: block;
+    display: none; /* hide initially */
     position: absolute;
     z-index: 1000;
     background-image: url('kottletten.png');
     background-size: cover;
     height: 200px;
     width: 200px;
-    border: 1px solid green;
+}
+
+#jeelizFaceFilterFollow.debug {
+    border: 5px solid red;
 }
 
 .mouthOpened {
