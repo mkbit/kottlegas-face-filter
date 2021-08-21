@@ -53,7 +53,7 @@ body {
     display: block;
     position: absolute;
     z-index: 1000;
-    /*background-image: url('comedy-glasses.png');*/
+    background-image: url('kottletten.png');
     background-size: cover;
     height: 200px;
     width: 200px;
