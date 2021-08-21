@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <title>Kottlegas</title>
+    
+    <script src="./deps/jeelizFaceFilter.js"></script>
+    <script src="./deps/JeelizResizer.js"></script>
+
+    <!-- three.js matrix calculations -->
+    <script src="./deps/THREEMatrix.js"></script>
+
+    <script src="./main.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  
+  <body onload="main()">
+    <!-- Fork me on github banner -->
+    <a href="https://github.com/mkbit/kottlegas-face-filter"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+
+    <canvas width="1024" height="1024" id='jeeFaceFilterCanvas'></canvas>
+
+    <div id='jeelizFaceFilterFollow'/>
+  </body>
+</html>
